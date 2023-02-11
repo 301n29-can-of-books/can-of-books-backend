@@ -38,9 +38,9 @@ Estimate of time needed to complete: 45 minutes
 
 Start time: 2023-02-11T12:45-08:00
 
-Finish time: 2023-02-11T12:45-08:00
+Finish time: 2023-02-11T14:18-08:00
 
-Actual time needed to complete: XX minutes
+Actual time needed to complete: 1 hour 30 minutes
 
 ## Credit and Collaborations
 
