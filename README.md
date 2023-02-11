@@ -26,9 +26,8 @@ This is a beckend server for the Can of Books app that utilizes the Mongoose ODM
 - Mongoose
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+2023-02-11T15:36-08:00 - Application now has a fully-functional mongoDB server, with a GET route for the book resource.
 
 ## Estimates
 
@@ -41,6 +40,16 @@ Start time: 2023-02-11T12:45-08:00
 Finish time: 2023-02-11T14:18-08:00
 
 Actual time needed to complete: 1 hour 30 minutes
+
+### Storage
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 2023-02-11T14:37-08:00
+
+Finish time: 2023-02-11T15:36-08:00
+
+Actual time needed to complete: 59 minutes
 
 ## Credit and Collaborations
 
