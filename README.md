@@ -29,6 +29,8 @@ This is a beckend server for the Can of Books app that utilizes the Mongoose ODM
 
 2023-02-11T15:36-08:00 - Application now has a fully-functional mongoDB server, with a GET route for the book resource.
 
+2023-02-11T14:18-08:00 - Backend now supports Create and Delete functions through the use of a handler.
+
 ## Estimates
 
 ### Setup Repositories
@@ -50,6 +52,26 @@ Start time: 2023-02-11T14:37-08:00
 Finish time: 2023-02-11T15:36-08:00
 
 Actual time needed to complete: 59 minutes
+
+### Create
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 2023-02-15T15:30-08:00
+
+Finish time: 2023-02-15T14:10-08:00
+
+Actual time needed to complete: 40 minutes
+
+### Delete
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 2023-02-15T14:10-08:00
+
+Finish time: 2023-02-15T14:50-08:00
+
+Actual time needed to complete: 40 minutes
 
 ## Credit and Collaborations
 
