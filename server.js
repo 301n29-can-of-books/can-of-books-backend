@@ -12,7 +12,7 @@ app.use(cors());
 // required for req.body. without this body will not render/show undefined
 app.use(express.json()); 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 mongoose.connect(process.env.MONGODB_URL);
 
@@ -32,13 +32,16 @@ app.get('/test', (request, response) => {
 })
 
 // route for running getBooks function
-app.get('/books', bookHandler.getBooks);
+app.get('/books', bookHandler.getBooks); //this is the route that is handling the get /books end point
 
 // route for posting a new book in our database
 app.post('/books', bookHandler.postBooks);
 
 // route to delete a book by its id
 app.delete('/books/:id', bookHandler.deleteBooks);
+
+// route to update a book by its id
+app.put('/books/:id', bookHandler.putBooks);
 
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
