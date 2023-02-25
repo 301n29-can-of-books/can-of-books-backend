@@ -33,6 +33,8 @@ This is a beckend server for the Can of Books app that utilizes the Mongoose ODM
 
 2023-02-18T15:20-05:00 - Backend now supports Put functions through the use of a handler.
 
+2023-02-25T16:15-05:00 - Backend now supports auth0 integration.
+
 ## Estimates
 
 ### Setup Repositories
@@ -84,6 +86,16 @@ Start time: 2023-02-15T14:10-08:00
 Finish time: 2023-02-15T14:50-08:00
 
 Actual time needed to complete: 40 minutes
+
+### Authentication
+
+Estimate of time needed to complete: 1 hour 32 minutes
+
+Start time: 2023-02-25T16:15-05:00
+
+Finish time: 2023-02-25T17:41-05:00
+
+Actual time needed to complete: 1 hour 32 minutes
 
 ## Credit and Collaborations
 
