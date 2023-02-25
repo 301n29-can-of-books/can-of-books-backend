@@ -4,6 +4,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const verifyUser = require('./authorize');
 const bookHandler = require('./modules/bookHandler')
 
 const app = express();
@@ -11,6 +12,8 @@ app.use(cors());
 
 // required for req.body. without this body will not render/show undefined
 app.use(express.json()); 
+
+app.use(verifyUser);
 
 const PORT = process.env.PORT || 3002;
 
