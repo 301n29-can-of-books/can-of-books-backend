@@ -53,7 +53,7 @@ bookHandler.putBooks = function (req, res, next) {
         res.status(403).send('Not Authorized');
       }
       else {
-        Book.updateOne({_id: book._id}, data, { new: true, overwrite: true })
+        Book.updateOne({_id: book._id}, data, {new: true})
         .then(updatedBook => {
           if (updatedBook == null) {
             res.status(404).send('Cannot find book.');
